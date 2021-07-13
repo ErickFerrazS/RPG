@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.dice-image {
+    height: 250px;
+    width: auto;
+    cursor: pointer;
+}
+
+.diceResult {
+    position: absolute;
+    top: 200;
+}
