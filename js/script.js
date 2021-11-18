@@ -1,11 +1,11 @@
-function test(quantity) {
-    for(var q=0; q<quantity; q++){
-        console.log(randomNumber(4))
-    }
-}
+//function test(quantity) {
+//    for(var q=0; q<quantity; q++){
+//        console.log(randomNumber(4))
+//    }
+//}
 
-function rollDice(max) {
-    document.getElementById("diceResult").textContent = randomNumber(max)
+function rollDice(max, idTitle) {
+    document.getElementById(idTitle).textContent = randomNumber(max)
 }
 
 function randomNumber(max) {
