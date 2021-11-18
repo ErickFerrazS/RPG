@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color:  grey;
+    background-image: url("../img/background.jpg");
+}
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.button4 {
+    background-color: forestgreen;
+}
+
+.button6 {
+    background-color: rgb(89, 0, 255);
+}
+
+.button8 {
+
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+}
+
+.button10 {
+    background-color: rgb(62, 61, 65);
+    color: white;
+}
+
+.button12 {
+    background-color: gold;
+}
+
+.button20 {
+    background-color: darkred;
+}
+
+.button100 {
+    background-color: Magenta;
+    margin-bottom: 50px;
+}
+
+.divDice {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+
+.diceResult {
+color: white;
+margin-left: 5%;
+}
